@@ -1,0 +1,72 @@
+.certificate-container {
+    width: 80%;
+    margin: auto;
+    padding-top: 9%;
+
+    .certificate-details-container {
+        .certificate-title {
+            font-size: 45px;
+            color: rgb(77, 77, 204);
+        }
+
+        .person-name {
+            font-size: 49px;
+            font-style: oblique;
+            text-decoration: underline;
+        }
+
+        .date-of-completion {
+            .highlight-date {
+                color: rgb(77, 77, 204);
+                margin: 0%;
+            }
+        }
+
+        .course-name {
+            .highlight {
+                color: red;
+                font-weight: bold;
+
+            }
+        }
+    }
+
+    .certificate-presenters-container {
+        width: 80%;
+        margin: auto;
+
+        padding-top: 5%;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+
+        .each-certificate-presenter-container {
+            height: 100px;
+            width: 100px;
+
+            .each-certificate-presenter {
+                object-fit: contain;
+                height: 100px;
+                width: 100px;
+                ;
+
+            }
+        }
+
+        .signature-container {
+
+            height: 100px;
+            width: 130px;
+
+            .about-signature {
+                font-weight: bold;
+                margin-top: 0%;
+
+            }
+
+            .signature {
+                height: 60px;
+            }
+        }
+    }
+}

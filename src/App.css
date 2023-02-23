@@ -1,0 +1,12 @@
+.App {
+  text-align: center;
+  font-family: 'Cormorant Garamond', serif;
+  font-family: 'Jost', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Poppins', sans-serif;
+  font-family: 'Raleway', sans-serif;
+  background-image: url('https://image.slidesdocs.com/responsive-images/background/education-simple-frame-white-certificate-silver-powerpoint-background_06212b26d4__960_540.jpg');
+  background-size: cover;
+  height: 100vh;
+
+}
